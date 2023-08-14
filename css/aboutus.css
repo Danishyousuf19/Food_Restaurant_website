@@ -1,0 +1,114 @@
+body {
+    background-color: black;
+    color: white;
+}
+
+.cont {
+    display: block;
+    border: 3px solid rgb(137, 47, 255);
+    border-radius: 50px;
+    /* border-style: outset; */
+    /* border-inline-end-style: none;
+    border-inline-start-style: none; */
+    width: 280px;
+    height: 305px;
+    /* margin-top: 45px;
+margin-left: 60px; */
+    margin: auto;
+    box-shadow: 5px 6px 4px rgb(157, 3, 157);
+
+}
+
+hr {
+    border: 1px solid violet;
+    border-style: dotted;
+}
+
+p a {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    margin: 17px;
+    color: aliceblue;
+    border: 2px solid rgb(255, 185, 255);
+    border-radius: 10px;
+
+}
+
+a:hover {
+    font-weight: bold;
+    cursor: pointer;
+    color: rgb(137, 47, 255);
+}
+
+footer h4 {
+    display: block;
+    position: absolute;
+    bottom: 2px;
+}
+
+h2 {
+    color: violet;
+    text-shadow: 2px 1px 11px violet;
+}
+
+.cont {
+    position: relative;
+    animation-name: contAni;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes contAni {
+    0% {
+        width: 240px;
+    }
+
+    50% {
+        width: 270px;
+    }
+
+    100% {
+        width: 240px;
+    }
+}
+
+#h3id {
+    animation-name: h3ani;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes h3ani {
+    0% {
+
+        color: blueviolet;
+    }
+
+    50% {
+
+        color: rgb(198, 11, 191)
+    }
+
+    100% {
+
+        color: blueviolet;
+    }
+}
+
+#h2id {
+    animation-name: h2ani;
+    animation-duration: 5s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+@keyframes h2ani {
+    0% {
+        font-size: large;
+    }
+    100% {
+        font-size: x-large;
+    }
+}

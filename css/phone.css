@@ -1,0 +1,81 @@
+body{
+    /* background-color: tomato; */
+}
+html{
+    scroll-behavior: smooth;
+}
+/* navigation */
+#navbar{
+    flex-direction: column;
+    z-index: 22;
+
+}
+#navbar ul li a{
+    font-size: 1rem;
+    padding: 0px 7px;
+    padding-bottom: 8px;
+
+}
+
+#navbar::before {
+height: 100%;
+
+}
+/* home */
+#home{
+height: 264px;
+padding:8px 17px  ;
+
+}
+#home::before{
+height: 383px;
+
+}
+#home p{
+    font-size: 13px;
+}
+
+/* services */
+#services{
+flex-direction:column ;
+}
+
+#services .box{
+padding: 13px;
+}
+#services .box img{
+height: 101px;
+}
+/* client */
+
+.clients{
+    flex-wrap: wrap;
+    
+}
+.clients img{
+  width: 145px;
+  height: auto;
+  /* padding:2px 6px; */
+
+}
+    #client-section::before{
+        height: 100%;
+    }
+    /* contactus */
+    
+    #contact-box form{
+        width: 70%;
+    
+    }
+
+/* footer */
+
+/* utility */
+.h-primary{
+  font-size: 30px;  
+
+}
+.btn{
+    font-size: 13px;
+    padding: 4px 8px;
+}
